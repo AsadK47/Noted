@@ -1,4 +1,4 @@
-require 'note_formatter'
+require_relative 'note_formatter'
 
 class Note
   attr_reader :title, :body

@@ -14,8 +14,10 @@ describe Note do
     expect(note.body).to eq(body)
   end
 
-  it 'displays the title and body in a formatted way' do
-    expect(note.display).to eq("Title: title\n"\
-      "body")
+  describe '#display' do
+    it 'displays the title and body in a formatted way' do
+      expect(note.display).to eq("Title: title\n"\
+        "body")
+    end
   end
 end
